@@ -1,5 +1,8 @@
 from readCsvFiles import *
-
+from lasagne import layers
+from lasagne.updates import nesterov_momentum
+from nolearn.lasagne import NeuralNet
+from matplotlib import pyplot
 
 def plot_sample(x, y, axis):
     img = x.reshape(96, 96)

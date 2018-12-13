@@ -5,10 +5,7 @@ import os
 import numpy as np
 from pandas.io.parsers import read_csv
 from sklearn.utils import shuffle
-from lasagne import layers
-from lasagne.updates import nesterov_momentum
-from nolearn.lasagne import NeuralNet
-from matplotlib import pyplot
+
 
 FTRAIN = 'datasets/training.csv'
 FTEST = 'datasets/test.csv'
