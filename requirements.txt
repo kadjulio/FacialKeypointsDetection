@@ -4,3 +4,4 @@ sklearn
 theano >= 0.8.0
 lasagne
 nolearn
+matplotlib
